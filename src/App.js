@@ -1,4 +1,4 @@
-import '';
+import './categories.styles.scss'
 const App = () => {
    const categories = [
   {
@@ -23,7 +23,7 @@ const App = () => {
   },
 ];
   return (
-    <div classmate='categories-container'>
+    <div classname='categories-container'>
       {categories.map(({ title }) => (
         <div classname='category-container'>     
         <div classname='background-image'/>

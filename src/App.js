@@ -1,4 +1,4 @@
-import './categories.styles.scss'
+import './styles/categories.styles.scss'
 const App = () => {
    const categories = [
   {
